@@ -32,6 +32,18 @@ When you don't need the samples anymore just delete the `_posts/core-samples` fo
 
 Here's a sample "posts list".
 
+{% highlight ruby %}
+def ackermann(m, n)
+    if m == 0
+        n + 1
+    elsif n == 0
+        ackermann(m - 1, 1)
+    else
+        ackermann(m - 1, ackermann(m, n - 1))
+    end
+end
+{% endhighlight %}
+
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
