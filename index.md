@@ -1,6 +1,4 @@
-
 ---
-### thanks my dear sanyer     
 layout: page
 title: Hello sanyer!
 tagline: Supporting tagline
