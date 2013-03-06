@@ -1,8 +1,6 @@
-
 ---
-### thanks my dear sanyer     
 layout: page
-title: Hello sanyer!
+title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
